@@ -1,6 +1,18 @@
 # OctoPrint-Thingiverse
 
-This plugin adds the ability to browse Thingiverse website from OctoPrint.
+This plugin adds the ability to browse Thingiverse website from OctoPrint. 
+A lot of people use Thingiverse website for their 3D model portfolio, but they need 
+to change windows all the time (ALT+TAB).
+
+**No more!**
+
+Now you can search 3D models inside your OctoPrint environment.
+
+**Tip**
+If you have Slic3r or Cura engine plugin, all you need is your OctoPrint. No browser, no external slicing engines. 
+
+**Search the model** > **Download**  > **Open zip file** > **Drag&Drop .stl file** > **Print!**.
+
 
 ## Screenshots
 
