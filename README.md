@@ -16,8 +16,8 @@ If you have Slic3r or Cura engine plugin, all you need is your OctoPrint. No bro
 
 ## Screenshots
 
-![screenshot](https://github.com/stefancandrea/OctoPrint-Thingiverse/blob/master/thingiverse_tab.JPG)
-![screenshot](https://github.com/stefancandrea/OctoPrint-Thingiverse/blob/master/thingiverse_settings.JPG)
+![screenshot](https://github.com/stefancandrea/OctoPrint-Thingiverse/blob/master/thingiverse_tab.jpg)
+![screenshot](https://github.com/stefancandrea/OctoPrint-Thingiverse/blob/master/thingiverse_settings.jpg)
 
 ## Install
 
