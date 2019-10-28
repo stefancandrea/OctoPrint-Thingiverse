@@ -1,0 +1,36 @@
+<h3>Thingiverse Plugin Settings</h3>
+<form class="form-horizontal">
+    <div class="control-group" title="Thingiverse URL">
+        <label class="control-label">Thingiverse URL</label>
+        <div class="controls">
+            <input type="text" disabled class="input-block-level" data-bind="value: settings.plugins.thingiverse.url">
+        </div>
+    </div>
+    <div class="control-group">
+		<div class="controls">
+			<label class="checkbox"><input type="checkbox" data-bind="checked: settings.plugins.thingiverse.enabled"/>Enable Thingiverse tab!</label>
+		</div>
+	</div>
+</form>
+
+<div class="row-fluid">
+    <h4><b>Important note for ergonomic view!</b></h4>
+
+    <p>For a clean and ergonomic usage of the <a href="https://www.thingiverse.com/" target="_blank">Thingiverse.com</a>
+    website inside the Thingiverse Plugin it is <b>highly recommended</b> to use the
+    <a href="https://plugins.octoprint.org/plugins/themeify/" target="_blank"><b>Themeify plugin</b></a>.</p>
+
+    <p>Themeify plugin installation can be done using the integrated OctoPrint Plugin Manager or using the Github
+    <a href="https://plugins.octoprint.org/plugins/themeify/" target="_blank"><b>link</b></a>.</p>
+
+    <p>After the program is installed the following settings must be manually inserted:
+        <ul>
+            <li>Selector = '.span8'; CSS-Rule = 'width'; value = '70%'</li>
+            <li>Selector = '.container'; CSS-Rule = 'width'; value = '100%'</li>
+            <li>Selector = '.span4'; CSS-Rule = 'width'; value = '25%'</li>
+            <li>Selector = '.row'; CSS-Rule = 'margin-left'; value = '0'</li>
+        </ul>
+    </p>
+
+    <p><a href="https://youtu.be/Zq1sFBgxy8o?t=498" target="_blank">A very helpful guide of the Themify plugin installation can be found here!</a></p>
+</div>

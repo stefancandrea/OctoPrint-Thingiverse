@@ -1,0 +1,19 @@
+/*
+ * CSS for OctoPrint-Thingiverse
+ *
+ * Author: Stefan Candrea
+ * License: AGPLv3
+ */
+ #tab_plugin_thingiverse iframe {
+  width: 100%;
+  height: 800px;
+  border: 1px solid #808080;
+}
+
+div.thingiverse_logo {
+    background: url("https://cdn.thingiverse.com/site/img/favicons/favicon-192x192.png") no-repeat 0 50% / contain;
+    vertical-align: middle;
+    float: left;
+	width: 28px;
+	height: 20px;
+}
