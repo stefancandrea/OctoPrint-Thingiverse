@@ -4,8 +4,8 @@ This plugin adds the ability to browse Thingiverse website from OctoPrint.
 
 ## Screenshots
 
-![screenshot](https://github.com/stefancandrea/OctoPrint-Thingiverse/blob/master/thingiverse_tab.jpg)
-![screenshot](https://github.com/stefancandrea/OctoPrint-Thingiverse/blob/master/thingiverse_settings.jpg)
+![screenshot](https://github.com/stefancandrea/OctoPrint-Thingiverse/blob/master/thingiverse_tab.JPG)
+![screenshot](https://github.com/stefancandrea/OctoPrint-Thingiverse/blob/master/thingiverse_settings.JPG)
 
 ## Install
 
