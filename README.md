@@ -13,6 +13,8 @@ If you have Slic3r or Cura engine plugin, all you need is your OctoPrint. No bro
 
 **Search the model** > **Download**  > **Open zip file** > **Drag&Drop .stl file** > **Print!**.
 
+Here is a YouTube Video that can help you install the latest Slic3r slicer including 3d representation of the model:
+[Video](https://www.youtube.com/watch?v=0I_BIR36Grk)
 
 ## Screenshots
 
