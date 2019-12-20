@@ -39,6 +39,6 @@ $(function() {
     OCTOPRINT_VIEWMODELS.push({
         construct: ThingiverseViewModel,
         dependencies: ["settingsViewModel"],
-        elements: ["#tab_plugin_thingiverse", "#settings_plugin_thingiverse"]
+        elements: ["#tab_plugin_thingiverse"]
     });
 });

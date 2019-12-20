@@ -1,0 +1,4 @@
+plugins:
+  thingiverse:
+    enabled: True
+    url: https://www.thingiverse.com/
