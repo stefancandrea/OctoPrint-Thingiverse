@@ -13,7 +13,7 @@ class ThingiversePlugin(octoprint.plugin.SettingsPlugin, octoprint.plugin.AssetP
 
 	def get_assets(self):
 		return dict(
-			js=["js/thingiverse.js"],
+			js=["js/thingiverse.js", "js/x-frame-bypass.js"],
 			css=["css/thingiverse.css"],
 			less=["less/thingiverse.less"]
 		)
