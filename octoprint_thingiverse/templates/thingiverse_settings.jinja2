@@ -13,6 +13,43 @@
 	</div>
 </form>
 
+<div>
+    <h3><b style="color:red">Important note for plugin to work!</b></h3>
+    <p>As you all know or not, in the issue section on github a lot of users (all of them) complain that the plugin is not working. Well this is true, BUT
+    the problem is not the plugin itself, Thingiverse, from security reasons (XSS attack, Proxy buffers, etc... ), blocks the possibility of their website
+    <a href="https://www.thingiverse.com/" target="_blank">Thingiverse.com</a>
+    to be displayed on other pages than *.makerbot.com *.thingiverse.com *.mbot.me *.onshape.com</p>
+    <p>This issue is very difficult to fix but the problem is in development, so a fix will eventually appear.</p>
+
+    <h4 style="color:blue">Until then what do I need to do?</h4>
+    <p>You need to install a small addon on your browser (Chrome/Firefox)</p>
+    <h5>For Chrome users:</h5>
+    <p>You need to install this addon <a href="https://chrome.google.com/webstore/detail/requestly-redirect-url-mo/mdnleldcmiljblolnjhpnblkcekpdkpa" target="_blank">Requestly</a></p>
+    <p>If the chrome website webstore link is not working use this and click download from <a href="https://www.requestly.in/" target="_blank">Requestly.in</a> </p>
+    <p>After installing: Open App -> Create a new rule -> Modify Headers ->
+    Set a name (eq. Remove Content-Security-Policy) ->
+    Set modifier to <b><span style="color: red">Remove</span></b> ->
+    Set type to <b><span style="color: red">Response</span></b> ->
+    Specify the header to <b><span style="color: red">Content-Security-Policy</span></b>
+
+    <img src="https://github.com/stefancandrea/OctoPrint-Thingiverse/openAppChrome.jpg">
+    <img src="https://github.com/stefancandrea/OctoPrint-Thingiverse/newRuleChrome.jpg">
+    <img src="https://github.com/stefancandrea/OctoPrint-Thingiverse/modifyHeader.jpg">
+    <img src="https://github.com/stefancandrea/OctoPrint-Thingiverse/ruleDefinitionChrome.jpg">
+
+    </p>
+
+    </br>
+    <h5>For Firefox users:</h5>
+    <p>You need to install this addon <a href="https://addons.mozilla.org/en-US/firefox/addon/simple-modify-header/" target="_blank">simple-modify-header</a></p>
+    <p>After installing: Click the app icon -> Click Start -> Click Configure -> Set Url Patterns to <b><span style="color: red">*</span></b> ->
+    Set Action to <b><span style="color: red">Delete</span> ->
+    Set Header Field Name to <b><span style="color: red">Content-Security-Policy</span> ->
+    Set ApplyTo to <b><span style="color: red">Response</span>
+    <img src="https://github.com/stefancandrea/OctoPrint-Thingiverse/ruleDefinitionMozilla.jpg">
+    </p>
+</div>
+
 <div class="row-fluid">
     <h4><b>Important note for ergonomic view!</b></h4>
 
