@@ -13,7 +13,7 @@
 	</div>
 </form>
 
-<div>
+<div class="row-fluid">
     <h3><b style="color:red">Important note for plugin to work!</b></h3>
     <p>As you all know or not, in the issue section on github a lot of users (all of them) complain that the plugin is not working. Well this is true, BUT
     the problem is not the plugin itself, Thingiverse, from security reasons (XSS attack, Proxy buffers, etc... ), blocks the possibility of their website
@@ -31,21 +31,20 @@
     Set modifier to <b><span style="color: red">Remove</span></b> ->
     Set type to <b><span style="color: red">Response</span></b> ->
     Specify the header to <b><span style="color: red">Content-Security-Policy</span></b>
-    <img src="https://raw.githubusercontent.com/stefancandrea/OctoPrint-Thingiverse/master/openAppChrome.jpg">
-    <img src="https://raw.githubusercontent.com/stefancandrea/OctoPrint-Thingiverse/master/newRuleChrome.jpg">
-    <img src="https://raw.githubusercontent.com/stefancandrea/OctoPrint-Thingiverse/master/modifyHeader.jpg">
-    <img src="https://raw.githubusercontent.com/stefancandrea/OctoPrint-Thingiverse/master/ruleDefinitionChrome.jpg">
     </p>
+    <img width="250" src="https://raw.githubusercontent.com/stefancandrea/OctoPrint-Thingiverse/master/openAppChrome.jpg" alt="openAppChrome">
+    <img width="250" src="https://raw.githubusercontent.com/stefancandrea/OctoPrint-Thingiverse/master/newRuleChrome.jpg" alt="newRuleChrome">
+    <img src="https://raw.githubusercontent.com/stefancandrea/OctoPrint-Thingiverse/master/ruleDefinitionChrome.jpg" alt="ruleDefinitionChrome">
 
-    </br>
+    <br>
     <h5>For Firefox users:</h5>
     <p>You need to install this addon <a href="https://addons.mozilla.org/en-US/firefox/addon/simple-modify-header/" target="_blank">simple-modify-header</a></p>
     <p>After installing: Click the app icon -> Click Start -> Click Configure -> Set Url Patterns to <b><span style="color: red">*</span></b> ->
-    Set Action to <b><span style="color: red">Delete</span> ->
-    Set Header Field Name to <b><span style="color: red">Content-Security-Policy</span> ->
-    Set ApplyTo to <b><span style="color: red">Response</span>
-    <img src="https://raw.githubusercontent.com/stefancandrea/OctoPrint-Thingiverse/master/ruleDefinitionMozilla.jpg">
+    Set Action to <b><span style="color: red">Delete</span></b> ->
+    Set Header Field Name to <b><span style="color: red">Content-Security-Policy</span></b> ->
+    Set ApplyTo to <b><span style="color: red">Response</span></b>
     </p>
+    <img src="https://raw.githubusercontent.com/stefancandrea/OctoPrint-Thingiverse/master/ruleDefinitionMozilla.jpg" alt="ruleDefinitionMozilla">
 </div>
 
 <div class="row-fluid">
@@ -58,14 +57,13 @@
     <p>Themeify plugin installation can be done using the integrated OctoPrint Plugin Manager or using the Github
     <a href="https://plugins.octoprint.org/plugins/themeify/" target="_blank"><b>link</b></a>.</p>
 
-    <p>After the program is installed the following settings must be manually inserted:
-        <ul>
-            <li>Selector = '.span8'; CSS-Rule = 'width'; value = '70%'</li>
-            <li>Selector = '.container'; CSS-Rule = 'width'; value = '100%'</li>
-            <li>Selector = '.span4'; CSS-Rule = 'width'; value = '25%'</li>
-            <li>Selector = '.row'; CSS-Rule = 'margin-left'; value = '0'</li>
-        </ul>
-    </p>
+    <p>After the program is installed the following settings must be manually inserted:</p>
+    <ul>
+        <li>Selector = '.span8'; CSS-Rule = 'width'; value = '70%'</li>
+        <li>Selector = '.container'; CSS-Rule = 'width'; value = '100%'</li>
+        <li>Selector = '.span4'; CSS-Rule = 'width'; value = '25%'</li>
+        <li>Selector = '.row'; CSS-Rule = 'margin-left'; value = '0'</li>
+    </ul>
 
     <p><a href="https://youtu.be/Zq1sFBgxy8o?t=498" target="_blank">A very helpful guide of the Themify plugin installation can be found here!</a></p>
 </div>
