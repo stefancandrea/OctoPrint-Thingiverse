@@ -38,6 +38,9 @@ class ThingiversePlugin(octoprint.plugin.SettingsPlugin, octoprint.plugin.AssetP
 
 
 __plugin_name__ = "Thingiverse Plugin"
+__plugin_version__ = "1.1.0"
+__plugin_description__ = "Creates a new tab where Thingiverse website is embedded"
+__plugin_pythoncompat__ = ">=2.7,<4"
 
 
 def __plugin_load__():

@@ -3,7 +3,7 @@
 plugin_identifier = "thingiverse"
 plugin_package = "octoprint_thingiverse"
 plugin_name = "OctoPrint-Thingiverse"
-plugin_version = "0.1.0"
+plugin_version = "1.1.0"
 plugin_description = """This plugin creates a new tab where Thingiverse website is embedded"""
 plugin_author = "Stefan Candrea"
 plugin_author_email = "stefan.candrea@gmail.com"
